@@ -27,7 +27,6 @@
         padding-left: 2%;
         overflow: visible;
         z-index: 2;
-        /* transition: all 1s ease-in-out; */
     }
     .aside-header{
         margin-bottom: -15px;
@@ -41,12 +40,8 @@
     }
     .playlist{
         height: 59.5vh;
-        /* height: 60vh; */
     }
 
-    /* .crousel{
-        margin-bottom: 20%;
-    } */
     .crousel-images{
         right: 3.5%;
     }
@@ -108,9 +103,6 @@
     main{
         width: 100%;
     }
-    /* .crousel{
-        margin-bottom: 30%;
-    } */
     .crousel-images{
         right: 8%;
     }
@@ -128,10 +120,6 @@
 
 @media screen and (max-width: 600px)
 {
-    /* .crousel{
-        margin-bottom: -30%;
-    } */
-
     .latest-release-content>div{
         position: relative;
         width: 65%;
