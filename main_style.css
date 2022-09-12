@@ -174,10 +174,6 @@ section{
 
 .popular-artists h1{
     margin-bottom: 2.5%;
-    /* position: relative; */
-    /* top: 38vh; */
-
-    /* left: 4vw; */
 }
 .popular-artists-content{
     width: 93%;
@@ -195,8 +191,6 @@ section{
 }
 
 .music-themes{
-    /* position: relative; */
-    /* top: 43vh; */
     background-color: darkgray;
     height: auto;
     width: 91%;
@@ -205,15 +199,11 @@ section{
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-    
-    /* margin-bottom: 50vh; */
-
 }
 
 .div1{
     height: 8vw;
     width: 12vw;
-    /* background-color: #184A45FF; */
     background-color: #3B999B;
 }
 .div2{
@@ -222,7 +212,6 @@ section{
     width: 10vw;
     left: 1vw;
     top: -1vw;
-    /* background-color: turquoise; */
     background-color: #EE5873;
 }
 .div3{
@@ -231,7 +220,6 @@ section{
     width: 8vw;
     left: 1vw;
     top: -1vw;
-    /* background-color: #FC766AFF; */
     background-color: #5778A3;
     display: flex;
 	flex-direction: column;
@@ -259,10 +247,8 @@ section{
     height: 8vw;
     width: 8vw;
     text-align: center;
-    /* border-radius: 100%; */
 }
 .stations-content{
-    /* width: 75%; */
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -270,15 +256,8 @@ section{
     justify-content: space-around;
     margin-top: 0.75vw;
     left: 0.75vw;
-    /* right: 2rem; */
 }
 .stations-content p{
-    /* position: relative;
-    top: -7vw;
-    font-size: 2vw;
-    font-weight: 600; */
-
-    /* text-align: center; */
 	position: relative;
 	top: -10.25vw;
 	width: 100%;
@@ -286,23 +265,15 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* border-radius: 100%; */
 	font-size: 2vw;
-    
-    
 }
 
 .music-themes2{
     width: 92%;
-    /* position: relative; */
-    /* top: 46vh; */
-    /* right: 1.5rem; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    /* margin-bottom: 50vh; */
-
 }
 
 .music-themes2 div{
@@ -341,10 +312,7 @@ section{
 }
 
 .english{
-    /* position: relative; */
-    /* top: 50vh; */
     width: 93%;
-    /* margin-bottom: 90vh; */
 }
 .english h1{
     margin-bottom: 2.5%;
@@ -363,28 +331,23 @@ section{
 }
 .language-content div {
 	width: 10vw;
-    /* margin: 2vw; */
     min-width: 70px;
 }
 .first{
     position: relative;
     font-size: 1.0rem;
-    /* font-weight: 500; */
     top: -1rem;
     word-wrap: break-word;
 }
 .second{
     position: relative;
     font-size: 0.75rem;
-    /* font-weight: 500; */
     top: -2rem;
 }
 
 .hindi{
     width: 93%;
     margin-top: -2%;
-    /* position: relative;
-    top: 48vh; */
 }
 .hindi h1{
     margin-bottom: 2.5%
@@ -411,11 +374,9 @@ label[for="more"]
 aside{
     position: relative;
     width: 27%;
-    /* height: 100%; */
     display: inline-block;
     vertical-align: top;
     margin-top: -1rem;
-    /* left: 2rem; */
 }
 .aside-header{
     position: relative;
@@ -423,7 +384,6 @@ aside{
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 2rem;
-    /* margin-right: 3rem; */
     right: 0.75vw;
 }
 .aside-header h4 a, #queue-options-box p a{
@@ -437,7 +397,6 @@ aside{
     position: fixed;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     overflow: hidden;
     right: 5vw;
@@ -464,7 +423,6 @@ hr{
     height: 75vh;
     overflow: scroll;
     overflow-x: hidden;
-    /* margin-right: 10rem; */
 }
 .playlist::-webkit-scrollbar{
     display: none;
@@ -477,13 +435,10 @@ hr{
     align-items: center;
     justify-content: space-between;
     margin: 1%;
-    /* right: 0.25rem; */
     cursor: pointer;
 }
 .playlist-content:hover{
     box-shadow: 0px 0px 2px 1px white;
-    /* padding-left: 1%; */
-    /* margin: 10%; */
 }
 .songs-detail{
     display: flex;
@@ -509,13 +464,10 @@ hr{
 .first-name{
     position: relative;
     font-size: 1.1rem;
-    /* font-weight: 500; */
-    /* top: -1rem; */
     word-wrap: break-word;
 }
 .second-name{
     position: relative;
     font-size: 1rem;
-    /* font-weight: 500; */
     top: -0.75rem;
 }
