@@ -10,6 +10,15 @@ body{
     justify-content: space-between;
 }
 
+.notifications{
+    display: flex;
+    justify-content: space-between;
+}
+.notifications div{
+    width: 80%;
+
+}
+
 .container{
     margin-top: -25px;
     margin-left: 3%;
@@ -43,8 +52,10 @@ body{
     width: 100%;
     text-align: center;
     border-radius: 100px;
+    outline: none;
     border: none;
-    font-size: 1.2rem;
+    height: 1.75rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 .search-bar div{
@@ -55,13 +66,15 @@ body{
     display: inline-block;
     position: absolute;
     left: 3%;
-    top: 0.1rem;
+    top: 0.3rem;
+    cursor: pointer;
 }
 .search-bar div:nth-child(3){
     display: inline-block;
     position: absolute;
     right: 3%;
-    top: 0.1rem;
+    top: 0.3rem;
+    cursor: pointer;
 }
 
 .account img{

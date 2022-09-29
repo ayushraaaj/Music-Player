@@ -120,6 +120,9 @@
 
 @media screen and (max-width: 600px)
 {
+    .notifications-content{
+        display: none;
+    }
     .latest-release-content>div{
         position: relative;
         width: 65%;
